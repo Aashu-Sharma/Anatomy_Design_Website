@@ -13,7 +13,7 @@
   gap: 60px;
   padding: 30px 40px;
   background: gray;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .container .headline h1 {
@@ -23,7 +23,6 @@
 
 .container .design-box {
   width: 90%;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 30px;
@@ -66,6 +65,7 @@
 
 .footer {
   background: #222;
+  width: 90%;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
